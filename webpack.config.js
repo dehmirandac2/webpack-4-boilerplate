@@ -1,5 +1,6 @@
 /* plugin que vai adicionar o script gerado no html */
 const htmlWebpackPlugin = require("html-webpack-plugin");
+// importando o node path module
 const path = require("path");
 
 module.exports = {
